@@ -2,6 +2,23 @@
   width: 700px;
 }
 
+h1{
+  float:left;
+}
+
+.head{
+  display:inline-block;
+  vertical-align: middle;
+}
+.buttons{
+  float:right;
+}
+
 .indiv{
   text-align:center;
+}
+
+.menu {
+  float:right;
+  clear:right;
 }
