@@ -14,6 +14,11 @@ h1{
   float:right;
 }
 
+.off-on{
+  overflow:hidden;
+  width:10px;
+}
+
 .indiv{
   text-align:center;
 }
