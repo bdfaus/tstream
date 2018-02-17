@@ -7,35 +7,21 @@
   <link rel="stylesheet" href="tstream.css">
 </head>
 <body>
-  <div class = "container">
-    <div class="row">
-      <h1>Twitch Streamers</h1>
-      <div class = "head buttons">
-        <div class = "menu"><p>ALL</p> </div>
-        <div class="menu off-on"><p>ONLINE</p> </div>
-        <div class="menu off-on"><p>OFFLINE</p> </div>
+<div class="container">
+  <div class="row">
+    <h1>Twitch Streamers</h1>
+    <div class="head buttons">
+      <div class="menu" id="all">
+        <a href="#">ALL</a>
+      </div>
+      <div class="menu off-on" id="online">
+        <a href = "#">ONLINE</a>
+      </div>
+      <div class="menu off-on" id="offline">
+        <a href = "#">OFFLINE</a>
       </div>
     </div>
-    <div class="row indiv">
-      <div class="col-md-1 emblem"></div>
-      <div class="col-md-2"><a href="#">Streamer1</a></div>
-      <div class="col-md-9"><p>Currently Streaming</p></div>
-    </div>
-    <div class="row indiv">
-      <div class="col-md-1 emblem"></div>
-      <div class="col-md-2"><a href="#">Streamer2</a></div>
-      <div class="col-md-9"><p>Currently Streaming</p></div>
-    </div>
-    <div class="row indiv">
-      <div class="col-md-1 emblem"></div>
-      <div class="col-md-2"><a href="#">Streamer3</a></div>
-      <div class="col-md-9"><p>Currently Streaming</p></div>
-    </div>
   </div>
-  <script src="http://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-  <script src = "tstream.js"></script>
-
+</div>
 </body>
 </html>

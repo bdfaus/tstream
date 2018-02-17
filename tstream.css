@@ -1,5 +1,8 @@
+body {
+  background: #e8dab3;
+}
 .container{
-  width: 700px;
+  width: 900px;
 }
 
 h1{
@@ -9,6 +12,10 @@ h1{
 .head{
   display:inline-block;
   vertical-align: middle;
+}
+
+.row {
+  font-size:18px;
 }
 .buttons{
   float:right;
@@ -26,4 +33,27 @@ h1{
 .menu {
   float:right;
   clear:right;
+}
+
+.logo{
+  height: 50px;
+}
+
+.row{
+  margin:10px;
+}
+
+.menu a{
+  text-decoration: none;
+}
+
+.online{
+  background:  #383326;
+  color:white;
+  padding:10px;
+}
+
+.streaming, .streaming:hover{
+  text-decoration: none;
+  color: white;
 }
