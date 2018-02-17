@@ -3,7 +3,7 @@ $(".off-on").hover(
   function() {
     $(this)
       .stop(true)
-      .animate({ width: "60px" }, 500);
+      .animate({ width: "75px" }, 500);
   },
   function() {
     $(this).animate({ width: "10px" }, 500);
